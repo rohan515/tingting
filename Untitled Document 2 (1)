@@ -1,0 +1,42 @@
+$query
+$query_vars
+
+    cat (int) - use category id.
+    category_name (string) - use category slug.
+    category__and (array) - use category id.
+    category__in (array) - use category id.
+    category__not_in (array) - use category id.
+	
+$post_count
+order 'ASC'
+order 'DESC'
+orderby 'ID' 
+orderby 'title' 
+orderby 'ngit remote -vame' 
+orderby 'date'
+have_posts()
+the_post()
+$max_num_pages
+$current_post
+page_id
+posts_per_page (int) –
+paged (int)
+page (int)
+date_query year (int) – 4 digit year (e.g. 2011).
+	   month (int) – Month number (from 1 to 12).
+       	   week (int) – Week of the year (from 0 to 53).
+	   day (int) – Day of the month (from 1 to 31).
+	   hour (int) – Hour (from 0 to 23).
+	   minute (int) – Minute (from 0 to 59).
+	   second (int) – Second (0 to 59).
+post_type (string / array) ‘post‘
+			   ‘page‘
+
+
+
+
+
+
+
+
+
